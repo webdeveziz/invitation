@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гульшат & Мердан | 15 августа 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parallax">
+        <header class="header">
+            <div class="container">
+                <h1 class="title">Гульшат <span class="heart">&</span> Мердан</h1>
+                <p class="subtitle">15 августа 2024 года</p>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <a href="#about" class="nav-link">Наша история</a>
+            <a href="#gallery" class="nav-link">Галерея</a>
+            <a href="#events" class="nav-link">Программа</a>
+            <a href="#rsvp" class="nav-link">Подтверждение</a>
+        </nav>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Наша история</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Мы встретились в прекрасный летний день и с первого взгляда поняли, что это судьба. Гульшат очаровала Мердана своей улыбкой, а он покорил её своим добрым сердцем.</p>
+                        <p>После нескольких лет счастливых моментов, смеха и взаимной поддержки, мы решили связать наши жизни вместе.</p>
+                        <p>15 августа 2024 года мы станем мужем и женой и будем рады разделить этот особенный день с вами!</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Couple" class="floating">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Наши моменты</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1494774157365-9e04c6720e47?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Photo 1" class="gallery-img">
+                        <div class="gallery-overlay">Наша первая встреча</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Photo 2" class="gallery-img">
+                        <div class="gallery-overlay">Первый отпуск</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Photo 3" class="gallery-img">
+                        <div class="gallery-overlay">Предложение</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="section">
+            <div class="container">
+                <h2>Программа дня</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>15:00 - Церемония</h3>
+                            <p>Торжественная регистрация брака в Дворце бракосочетаний</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>17:00 - Фотосессия</h3>
+                            <p>Совместная фотосессия в парке</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>19:00 - Банкет</h3>
+                            <p>Праздничный ужин в ресторане "Восточная сказка"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="section">
+            <div class="container">
+                <h2>Подтвердите участие</h2>
+                <form id="rsvp-form" class="rsvp-form" action="https://formsubmit.co/lesolurner@gmail.com" method="POST">
+                    <!-- Добавьте скрытое поле для темы письма -->
+                    <input type="hidden" name="_subject" value="Новый ответ на приглашение на свадьбу">
+                    <!-- Добавьте скрытое поле для отключения капчи -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!-- Добавьте скрытое поле для перенаправления после отправки -->
+                    <!-- <input type="hidden" name="_next" value="index.html"> -->
+                    <input type="hidden" name="_template" value="table">
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="tel" name="tel" required placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Ваш email">
+                    </div>
+                    <div class="form-group">
+                        <select id="attendance" name="attendance" required>
+                            <option value="" disabled selected>Вы придёте?</option>
+                            <option value="yes">С радостью приду!</option>
+                            <option value="no">К сожалению, не смогу</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Ваши пожелания или комментарии"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+                <!-- <form id="rsvp-form" class="rsvp-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Ваш email">
+                    </div>
+                    <div class="form-group">
+                        <select id="attendance" name="attendance" required>
+                            <option value="" disabled selected>Вы придёте?</option>
+                            <option value="yes">С радостью приду!</option>
+                            <option value="no">К сожалению, не смогу</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Ваши пожелания или комментарии"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form> -->
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>С любовью, Гульшат и Мердан</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <p class="countdown">До свадьбы осталось: <span id="countdown"></span></p>
+            </div>
+        </footer>
+    </div>
+
+    <div id="confirmation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Спасибо за ваш ответ!</h3>
+            <p id="modal-message">Мы рады, что вы сможете разделить с нами этот особенный день!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
