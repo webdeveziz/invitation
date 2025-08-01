@@ -26,7 +26,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.8)),
     url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .title {
-  font-family: 'Playfair Display', serif;
+  font-family: math, 'Playfair Display', serif;
   font-size: 4rem;
   color: var(--primary-color);
   margin-bottom: 20px;

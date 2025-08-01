@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Таймер обратного отсчета
     const countdownElement = document.getElementById('countdown');
-    const weddingDate = new Date('August 15, 2025 15:00:00').getTime();
+    const weddingDate = new Date('August 12, 2025 15:00:00').getTime();
     
     function updateCountdown() {
         const now = new Date().getTime();
